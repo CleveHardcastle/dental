@@ -1,7 +1,7 @@
 function Product() {
   return (
     <div>
-      <p>Hello!</p>
+      <p>Filler product page</p>
     </div>
   );
 }

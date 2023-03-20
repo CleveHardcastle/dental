@@ -1,4 +1,4 @@
-function Home() {
+function Brushing() {
   return (
     <div>
       <div className="w-full">
@@ -81,8 +81,15 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="flex justify-center mb-6">
+        <a href="/product">
+          <p className="text-xl text-center text-blue-800 m-2">
+            Find out how we can help improve brushing
+          </p>
+        </a>
+      </div>
     </div>
   );
 }
 
-export default Home;
+export default Brushing;

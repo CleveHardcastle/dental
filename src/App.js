@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+import Brushing from "./pages/Brushing";
 import Product from "./pages/Product";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <div className="flex flex-col flex-nowrap">
           <Router>
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              <Route exact path="/brushing" element={<Brushing />} />
               <Route exact path="/product" element={<Product />} />
             </Routes>
           </Router>

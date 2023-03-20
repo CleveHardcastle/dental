@@ -29,6 +29,9 @@ export default function Navbar() {
             <a href="/">Home</a>
           </li>
           <li className="items">
+            <a href="/brushing">Brushing</a>
+          </li>
+          <li className="items">
             <a href="/product">Product</a>
           </li>
           <li className="items">
