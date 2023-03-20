@@ -7,7 +7,7 @@ function Home() {
         </p>
       </div>
       <div className="w-full flex flex-col md:flex-row mt-10  mb-10">
-        <div className="w-full md:w-3/4 m-0 md:m-2 flex items-center">
+        <div className="w-full m-0 md:m-2 flex items-center">
           <p className="text-3xl text-center">
             Brushing your teeth at a 45-degree angle and in an up and down
             motion is a highly recommended technique by dentists worldwide. This
@@ -16,13 +16,13 @@ function Home() {
             breath.
           </p>
         </div>
-        <div className="flex justify-end m-2">
-          <img src={process.env.PUBLIC_URL + "/images/45.jpg"} />
-        </div>
+      </div>
+      <div className="flex justify-center m-2">
+        <img src={process.env.PUBLIC_URL + "/images/45.jpg"} />
       </div>
       <div className="flex justify-center mb-6">
         <a href="/product">
-          <p className="text-xl text-blue-800">
+          <p className="text-xl text-blue-800 m-2">
             Click here to find out how we're better
           </p>
         </a>
